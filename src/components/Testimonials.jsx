@@ -21,7 +21,7 @@ export default function Testimonials() {
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src={testimonial.image}
+                    src={require('../' + testimonial.image + '.png')}
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">

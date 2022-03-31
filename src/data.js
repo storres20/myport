@@ -38,39 +38,31 @@ export const projects = [
 export const skills = [
   {
     id: "1",
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "p1",
-    link: "https://reactbootcamp.com",
+    subtitle: "HTML",
   },
   {
     id: "2",
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "p2",
-    link: "https://reedbarger.com",
+    subtitle: "CSS",
   },
   {
     id: "3",
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "p3",
-    link: "https://jsbootcamp.com",
+    subtitle: "Javascript",
   },
   {
     id: "4",
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "p4",
-    link: "https://pythonbootcamp.com",
+    subtitle: "React js",
+  },
+  {
+    id: "5",
+    subtitle: "Node js",
+  },
+  {
+    id: "6",
+    subtitle: "PHP",
+  },
+  {
+    id: "7",
+    subtitle: "Mysql",
   },
 ];
 

@@ -2,36 +2,36 @@
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Movie API",
+    subtitle: "React js + Movie API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A web app made with React js to render movie data from an API",
     image: "project1",
-    link: "https://reactbootcamp.com",
+    link: "https://moviesx7.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Rutas",
+    subtitle: "Frontend + PHP",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A web app made with HTML, CSS and Javascript to render user data and driver's schedule. Backend made with PHP and Codeigniter 3. Database made with Mysql",
     image: "project2",
-    link: "https://reedbarger.com",
+    link: "https://rutav22.herokuapp.com/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Colab Orange",
+    subtitle: "Frontend + Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An static website made with HTML, CSS, Javascript and Backend made with Firebase",
     image: "project3",
-    link: "https://jsbootcamp.com",
+    link: "https://cmyk-orange-v2.netlify.app/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Starflix",
+    subtitle: "React + Movie API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A web app made with React js to render movie data from an API",
     image: "project4",
-    link: "https://pythonbootcamp.com",
+    link: "https://starflix-v2.netlify.app/",
   },
 ];
 

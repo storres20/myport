@@ -13,7 +13,7 @@ export const projects = [
     title: "Rutas",
     subtitle: "Frontend + PHP",
     description:
-      "A web app made with HTML, CSS and Javascript to render user data and driver's schedule. Backend made with PHP and Codeigniter 3. Database made with Mysql",
+      "A web app made with Frontend and PHP to render user data and driver's schedule.",
     image: "project2",
     link: "https://rutav22.herokuapp.com/",
   },

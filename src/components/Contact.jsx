@@ -17,7 +17,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31218.220890164106!2d-77.03030669217016!3d-12.024399199775605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf41e6ed1dad%3A0xb30871711a844983!2zUsOtbWFj!5e0!3m2!1ses-419!2spe!4v1649209377592!5m2!1ses-419!2spe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49195.44575542484!2d-77.07755079077705!3d-12.045569372657702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1649216566412!5m2!1ses-419!2spe"
           />
         </div>
         <form

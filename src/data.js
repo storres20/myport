@@ -33,6 +33,22 @@ export const projects = [
     image: "project4",
     link: "https://starflix-v2.netlify.app/",
   },
+  {
+    title: "Bs20",
+    subtitle: "Frontend + API",
+    description:
+      "A web app made with HTML, CSS, JS to render data from an API",
+    image: "project5",
+    link: "https://bs20-front.netlify.app/",
+  },
+  {
+    title: "Veride",
+    subtitle: "React + API",
+    description:
+      "A vegetarian restaurant web app made with React js to render data from an API",
+    image: "project6",
+    link: "https://veride.netlify.app/",
+  },
 ];
 
 export const skills = [

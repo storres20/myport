@@ -80,6 +80,18 @@ export const skills = [
     id: "7",
     subtitle: "Mysql",
   },
+  {
+    id: "8",
+    subtitle: "AWS",
+  },
+  {
+    id: "9",
+    subtitle: "Git",
+  },
+  {
+    id: "10",
+    subtitle: "Github",
+  },
 ];
 
 export const testimonials = [

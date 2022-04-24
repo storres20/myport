@@ -2,12 +2,28 @@
 
 export const projects = [
   {
-    title: "Movie API",
-    subtitle: "React js + Movie API",
+    title: "Veride",
+    subtitle: "React + API",
     description:
-      "A web app made with React js to render movie data from an API",
-    image: "project1",
-    link: "https://moviesx7.netlify.app/",
+      "A vegetarian restaurant web app made with React js to render data from an API",
+    image: "project6",
+    link: "https://veride.netlify.app/",
+  },
+  {
+    title: "Bs20",
+    subtitle: "Frontend + API",
+    description:
+      "A E-commerce web app made with HTML, CSS, JS to render product's data from an API",
+    image: "project5",
+    link: "https://bs20-front.netlify.app/",
+  },
+  {
+    title: "Image Storage",
+    subtitle: "React + API",
+    description:
+      "Image Storage web app made with React js + API to send and storage image on IMGBB",
+    image: "project7",
+    link: "https://imgbb-storage.netlify.app/",
   },
   {
     title: "Rutas",
@@ -26,36 +42,20 @@ export const projects = [
     link: "https://cmyk-orange-v2.netlify.app/",
   },
   {
+    title: "Movie API",
+    subtitle: "React js + Movie API",
+    description:
+      "A web app made with React js to render movie data from an API",
+    image: "project1",
+    link: "https://moviesx7.netlify.app/",
+  },
+  {
     title: "Starflix",
     subtitle: "React + Movie API",
     description:
       "A web app made with React js to render movie data from an API",
     image: "project4",
     link: "https://starflix-v2.netlify.app/",
-  },
-  {
-    title: "Bs20",
-    subtitle: "Frontend + API",
-    description:
-      "A web app made with HTML, CSS, JS to render data from an API",
-    image: "project5",
-    link: "https://bs20-front.netlify.app/",
-  },
-  {
-    title: "Veride",
-    subtitle: "React + API",
-    description:
-      "A vegetarian restaurant web app made with React js to render data from an API",
-    image: "project6",
-    link: "https://veride.netlify.app/",
-  },
-  {
-    title: "Image Storage",
-    subtitle: "React + API",
-    description:
-      "Image Storage web app made with React js + API to send and storage image on IMGBB",
-    image: "project7",
-    link: "https://imgbb-storage.netlify.app/",
   },
 ];
 
@@ -90,14 +90,10 @@ export const skills = [
   },
   {
     id: "8",
-    subtitle: "AWS",
-  },
-  {
-    id: "9",
     subtitle: "Git",
   },
   {
-    id: "10",
+    id: "9",
     subtitle: "Github",
   },
 ];

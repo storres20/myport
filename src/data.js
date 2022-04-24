@@ -49,6 +49,14 @@ export const projects = [
     image: "project6",
     link: "https://veride.netlify.app/",
   },
+  {
+    title: "Image Storage",
+    subtitle: "React + API",
+    description:
+      "Image Storage web app made with React js + API to send and storage image on IMGBB",
+    image: "project7",
+    link: "https://imgbb-storage.netlify.app/",
+  },
 ];
 
 export const skills = [

@@ -26,6 +26,14 @@ export const projects = [
     link: "https://imgbb-storage.netlify.app/",
   },
   {
+    title: "Real",
+    subtitle: "React + API",
+    description:
+      "E-commerce web app made with React js + API to create and show products from an API",
+    image: "project8",
+    link: "https://real-front.netlify.app/",
+  },
+  {
     title: "Rutas",
     subtitle: "Frontend + PHP",
     description:

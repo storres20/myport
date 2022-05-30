@@ -76,7 +76,7 @@ export default function Contact() {
               Phone
             </label>
             <input
-              value="+51-982562745"
+              value=""
               disabled="true"
               type="text"
               id="phone"

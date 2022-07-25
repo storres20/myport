@@ -65,6 +65,14 @@ export const projects = [
     image: "project4",
     link: "https://starflix-v2.netlify.app/",
   },
+  {
+    title: "Alkemy Fullstack JS",
+    subtitle: "React + Nodejs",
+    description:
+      "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
+    image: "project9",
+    link: "https://alkemy20-front.netlify.app/",
+  },
 ];
 
 export const skills = [

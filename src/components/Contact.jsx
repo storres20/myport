@@ -36,14 +36,14 @@ export default function Contact() {
             </label>
             <input
               value="Frontend Developer"
-              disabled="true"
+              disabled={true}
               type="text"
               id="name"
               name="name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
-          <div className="relative mb-4">
+          {/* <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
@@ -55,7 +55,7 @@ export default function Contact() {
               name="email"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-          </div>
+          </div> */}
           
           <div className="relative mb-4">
             <label htmlFor="github" className="leading-7 text-sm text-gray-400">
@@ -63,7 +63,7 @@ export default function Contact() {
             </label>
             <input
               value="https://github.com/storres20"
-              disabled="true"
+              disabled={true}
               type="text"
               id="github"
               name="github"
@@ -71,7 +71,7 @@ export default function Contact() {
             />
           </div>
           
-          <div className="relative mb-4">
+          {/* <div className="relative mb-4">
             <label htmlFor="phone" className="leading-7 text-sm text-gray-400">
               Phone
             </label>
@@ -83,7 +83,7 @@ export default function Contact() {
               name="phone"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-          </div>
+          </div> */}
           
           <div className="relative mb-4">
             <label htmlFor="address" className="leading-7 text-sm text-gray-400">
@@ -91,7 +91,7 @@ export default function Contact() {
             </label>
             <input
               value="Lima, Peru"
-              disabled="true"
+              disabled={true}
               type="text"
               id="address"
               name="address"

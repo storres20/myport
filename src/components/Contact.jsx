@@ -28,14 +28,14 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            For any project!!! Just, send me a message.
+            For any project!!! or Maybe you need help, support with any project. Just, send me a message.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
             <input
-              value="Frontend Developer"
+              value="ITALO"
               disabled={true}
               type="text"
               id="name"
@@ -43,19 +43,19 @@ export default function Contact() {
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
-          {/* <div className="relative mb-4">
+          <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
             <input
               value="lkpitalo249@gmail.com"
-              disabled="true"
+              disabled={true}
               type="email"
               id="email"
               name="email"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-          </div> */}
+          </div>
           
           <div className="relative mb-4">
             <label htmlFor="github" className="leading-7 text-sm text-gray-400">

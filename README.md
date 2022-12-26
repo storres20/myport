@@ -149,8 +149,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[React js]**
-- [ ] **[Tailwind CSS]**
+- [ ] **[Add new projects]**
+- [ ] **[Add Testing files for the page and components]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

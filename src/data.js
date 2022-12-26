@@ -10,20 +10,28 @@ export const projects = [
     link: "https://veride.netlify.app/",
   },
   {
+    title: "Movie API",
+    subtitle: "React js + Movie API",
+    description:
+      "A web app made with React js to render movie data from an API",
+    image: "project1",
+    link: "https://moviesx7.netlify.app/",
+  },
+  {
+    title: "Alkemy Fullstack JS",
+    subtitle: "React + Nodejs",
+    description:
+      "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
+    image: "project9",
+    link: "https://alkemy20-front.netlify.app/",
+  },
+  {
     title: "Bs20",
     subtitle: "Frontend + API",
     description:
       "A E-commerce web app made with HTML, CSS, JS to render product's data from an API",
     image: "project5",
     link: "https://bs20-front.netlify.app/",
-  },
-  {
-    title: "Image Storage",
-    subtitle: "React + API",
-    description:
-      "Image Storage web app made with React js + API to send and storage image on IMGBB",
-    image: "project7",
-    link: "https://imgbb-storage.netlify.app/",
   },
   {
     title: "Real",
@@ -33,6 +41,8 @@ export const projects = [
     image: "project8",
     link: "https://real-front.netlify.app/",
   },
+  
+  
   {
     title: "Colab Orange",
     subtitle: "Frontend + Firebase",
@@ -40,14 +50,6 @@ export const projects = [
       "An static website made with HTML, CSS, Javascript and Backend made with Firebase",
     image: "project3",
     link: "https://cmyk-orange-v2.netlify.app/",
-  },
-  {
-    title: "Movie API",
-    subtitle: "React js + Movie API",
-    description:
-      "A web app made with React js to render movie data from an API",
-    image: "project1",
-    link: "https://moviesx7.netlify.app/",
   },
   {
     title: "Starflix",
@@ -58,12 +60,12 @@ export const projects = [
     link: "https://starflix-v2.netlify.app/",
   },
   {
-    title: "Alkemy Fullstack JS",
-    subtitle: "React + Nodejs",
+    title: "Image Storage",
+    subtitle: "React + API",
     description:
-      "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
-    image: "project9",
-    link: "https://alkemy20-front.netlify.app/",
+      "Image Storage web app made with React js + API to send and storage image on IMGBB",
+    image: "project7",
+    link: "https://imgbb-storage.netlify.app/",
   },
 ];
 

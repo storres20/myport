@@ -34,14 +34,6 @@ export const projects = [
     link: "https://real-front.netlify.app/",
   },
   {
-    title: "Rutas",
-    subtitle: "Frontend + PHP",
-    description:
-      "A web app made with Frontend and PHP to render user data and driver's schedule.",
-    image: "project2",
-    link: "https://rutav22.herokuapp.com/",
-  },
-  {
     title: "Colab Orange",
     subtitle: "Frontend + Firebase",
     description:

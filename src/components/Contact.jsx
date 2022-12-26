@@ -28,7 +28,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            For any project!!! or Maybe you need help, support with any project. Just, send me a message.
+            For any help or support with any project. Just, send me a message.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

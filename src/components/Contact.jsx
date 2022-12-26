@@ -13,9 +13,6 @@ export default function Contact() {
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49195.44575542484!2d-77.07755079077705!3d-12.045569372657702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1649216566412!5m2!1ses-419!2spe"
           />
@@ -61,29 +58,19 @@ export default function Contact() {
             <label htmlFor="github" className="leading-7 text-sm text-gray-400">
               Github
             </label>
-            <input
-              value="https://github.com/storres20"
-              disabled={true}
-              type="text"
-              id="github"
-              name="github"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
+            <a href="https://github.com/storres20" target="_blank" rel="noreferrer">
+              <p className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:bg-violet-600">https://github.com/storres20</p>
+            </a>
           </div>
           
-          {/* <div className="relative mb-4">
-            <label htmlFor="phone" className="leading-7 text-sm text-gray-400">
-              Phone
+          <div className="relative mb-4">
+            <label htmlFor="linkedin" className="leading-7 text-sm text-gray-400">
+              LinkedIn
             </label>
-            <input
-              value=""
-              disabled="true"
-              type="text"
-              id="phone"
-              name="phone"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
-          </div> */}
+            <a href="https://www.linkedin.com/in/italo-lon-kan/" target="_blank" rel="noreferrer">
+              <p className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:bg-violet-600">https://www.linkedin.com/in/italo-lon-kan/</p>
+            </a>
+          </div>
           
           <div className="relative mb-4">
             <label htmlFor="address" className="leading-7 text-sm text-gray-400">

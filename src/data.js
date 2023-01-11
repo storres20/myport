@@ -2,12 +2,20 @@
 
 export const projects = [
   {
-    title: "Veride",
-    subtitle: "React + API",
+    title: "Pacientes",
+    subtitle: "React js + Nodejs + MongoDB",
     description:
-      "A vegetarian restaurant web app made with React js to render data from an API",
-    image: "project6",
-    link: "https://veride.netlify.app/",
+      "A web app made with React js that lets you register new patiens, save information and book appointments",
+    image: "project12",
+    link: "https://pacientes20.netlify.app/",
+  },
+  {
+    title: "M3 React Capstone",
+    subtitle: "React js/Redux/Testing + Movie API",
+    description:
+      "A web app made with React js/Redux/Testing to render movie data from an API",
+    image: "project11",
+    link: "https://m3-react-capstone.netlify.app/",
   },
   {
     title: "Movie API",
@@ -16,6 +24,22 @@ export const projects = [
       "A web app made with React js to render movie data from an API",
     image: "project1",
     link: "https://moviesx7.netlify.app/",
+  },
+  {
+    title: "Javascript Capstone",
+    subtitle: "Frontend + Movie API",
+    description:
+      "A web app made with HTML/CSS/JS to render movie data from an API",
+    image: "project10",
+    link: "https://storres20.github.io/javascript_capstone/dist/",
+  },
+  {
+    title: "Veride",
+    subtitle: "React + API",
+    description:
+      "A vegetarian restaurant web app made with React js to render data from an API",
+    image: "project6",
+    link: "https://veride.netlify.app/",
   },
   {
     title: "Alkemy Fullstack JS",
@@ -41,8 +65,6 @@ export const projects = [
     image: "project8",
     link: "https://real-front.netlify.app/",
   },
-  
-  
   {
     title: "Colab Orange",
     subtitle: "Frontend + Firebase",

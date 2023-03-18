@@ -7,7 +7,7 @@ export const projects = [
     description:
       "The Recipe app keeps track of all your recipes, ingredients, and inventory.",
     image: "project13",
-    link: "recipeapp-1tgl.onrender.com/",
+    link: "https://recipeapp-1tgl.onrender.com/",
   },
   {
     title: "Pacientes",

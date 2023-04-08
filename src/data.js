@@ -2,12 +2,28 @@
 
 export const projects = [
   {
+    title: "JSON Api",
+    subtitle: "Nodejs",
+    description:
+      "JSON-API is a backend application for everyone who needs a fast and easy API based on JSON",
+    image: "project15",
+    link: "https://json-api-nro9.onrender.com/",
+  },
+  {
+    title: "Random",
+    subtitle: "Reactjs + Typescript + API",
+    description:
+      "RANDOM is a frontend web application that shows on screen Random user's information",
+    image: "project14",
+    link: "https://randomuser2023.netlify.app/",
+  },
+  {
     title: "Recipe App",
     subtitle: "Ruby on Rails + PostgreSQL",
     description:
       "The Recipe app keeps track of all your recipes, ingredients, and inventory.",
     image: "project13",
-    link: "https://recipeapp-1tgl.onrender.com/",
+    link: "https://recipeapp-1jpk.onrender.com/",
   },
   {
     title: "Pacientes",

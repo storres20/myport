@@ -2,6 +2,14 @@
 
 export const projects = [
   {
+    title: "Doctor's appointments",
+    subtitle: "Reactjs + Ruby on Rails",
+    description:
+      "This web application let you register new doctors, save information and book appointments",
+    image: "project16",
+    link: "https://doctorsfinal.netlify.app/",
+  },
+  {
     title: "JSON Api",
     subtitle: "Nodejs",
     description:

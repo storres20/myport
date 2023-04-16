@@ -15,7 +15,7 @@ export const projects = [
     description:
       "JSON-API is a backend application for everyone who needs a fast and easy API based on JSON",
     image: "project15",
-    link: "https://json-api-nro9.onrender.com/",
+    link: "https://json-api-dwvi.onrender.com",
   },
   {
     title: "Random",

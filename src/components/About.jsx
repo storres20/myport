@@ -24,7 +24,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed md:text-2xl">
             Completely immersed in remote software development for the last few months, I have been working remotely and asynchronously with people in different time zones, and have built many projects.
           </p>
-          <p className="mb-8 leading-relaxed md:text-2xl">
+          <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">
             Any idea in mind? Click on "Work With Me" to send me a message. Let's talk!
           </p>
           <div className="flex justify-center">

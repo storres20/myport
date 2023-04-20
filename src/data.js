@@ -10,28 +10,12 @@ export const projects = [
     link: "https://doctorsfinal.netlify.app/",
   },
   {
-    title: "JSON Api",
-    subtitle: "Nodejs",
-    description:
-      "JSON-API is a backend application for everyone who needs a fast and easy API based on JSON",
-    image: "project15",
-    link: "https://json-api-dwvi.onrender.com",
-  },
-  {
     title: "Random",
     subtitle: "Reactjs + Typescript + API",
     description:
       "RANDOM is a frontend web application that shows on screen Random user's information",
     image: "project14",
     link: "https://randomuser2023.netlify.app/",
-  },
-  {
-    title: "Recipe App",
-    subtitle: "Ruby on Rails + PostgreSQL",
-    description:
-      "The Recipe app keeps track of all your recipes, ingredients, and inventory.",
-    image: "project13",
-    link: "https://recipeapp-1jpk.onrender.com/",
   },
   {
     title: "Pacientes",
@@ -48,14 +32,6 @@ export const projects = [
       "A web app made with React js/Redux/Testing to render movie data from an API",
     image: "project11",
     link: "https://m3-react-capstone.netlify.app/",
-  },
-  {
-    title: "Movie API",
-    subtitle: "React js + Movie API",
-    description:
-      "A web app made with React js to render movie data from an API",
-    image: "project1",
-    link: "https://moviesx7.netlify.app/",
   },
   {
     title: "Javascript Capstone",
@@ -96,30 +72,6 @@ export const projects = [
       "E-commerce web app made with React js + API to create and show products from an API",
     image: "project8",
     link: "https://real-front.netlify.app/",
-  },
-  {
-    title: "Colab Orange",
-    subtitle: "Frontend + Firebase",
-    description:
-      "An static website made with HTML, CSS, Javascript and Backend made with Firebase",
-    image: "project3",
-    link: "https://cmyk-orange-v2.netlify.app/",
-  },
-  {
-    title: "Starflix",
-    subtitle: "React + Movie API",
-    description:
-      "A web app made with React js to render movie data from an API",
-    image: "project4",
-    link: "https://starflix-v2.netlify.app/",
-  },
-  {
-    title: "Image Storage",
-    subtitle: "React + API",
-    description:
-      "Image Storage web app made with React js + API to send and storage image on IMGBB",
-    image: "project7",
-    link: "https://imgbb-storage.netlify.app/",
   },
 ];
 

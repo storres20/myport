@@ -146,18 +146,22 @@ export const skills = [
   },
   {
     id: "6",
-    subtitle: "PHP",
+    subtitle: "Ruby on Rails",
   },
   {
     id: "7",
-    subtitle: "Mysql",
+    subtitle: "PostgreSQL",
   },
   {
     id: "8",
-    subtitle: "Git",
+    subtitle: "MongoDB",
   },
   {
     id: "9",
+    subtitle: "Git",
+  },
+  {
+    id: "10",
     subtitle: "Github",
   },
 ];

@@ -28,11 +28,8 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
+            <div
               key={project.image}
-              target="_blank"
-              rel="noreferrer"
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
@@ -50,7 +47,23 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </a>
+              <div className="flex justify-center mt-2">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                  Link
+                </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                  Github
+                </a>
+              </div>
+            </div>
           ))}
         </div>
       </div>

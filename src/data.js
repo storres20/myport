@@ -6,72 +6,81 @@ export const projects = [
     subtitle: "Reactjs + Ruby on Rails",
     description:
       "This web application let you register new doctors, save information and book appointments",
-    image: "project16",
+    image: "project9",
     link: "https://doctorsfinal.netlify.app/",
+    github: "https://github.com/storres20/Doctors-appointment-frontend"
   },
   {
     title: "Random",
     subtitle: "Reactjs + Typescript + API",
     description:
       "RANDOM is a frontend web application that shows on screen Random user's information",
-    image: "project14",
+    image: "project8",
     link: "https://randomuser2023.netlify.app/",
+    github: "https://github.com/storres20/random"
   },
   {
     title: "Pacientes",
     subtitle: "React js + Nodejs + MongoDB",
     description:
       "A web app made with React js that lets you register new patiens, save information and book appointments",
-    image: "project12",
+    image: "project7",
     link: "https://pacientes20.netlify.app/",
+    github: "https://github.com/storres20/pacientes"
   },
   {
     title: "M3 React Capstone",
     subtitle: "React js/Redux/Testing + Movie API",
     description:
       "A web app made with React js/Redux/Testing to render movie data from an API",
-    image: "project11",
+    image: "project6",
     link: "https://m3-react-capstone.netlify.app/",
+    github: "https://github.com/storres20/M3-react-capstone"
   },
   {
     title: "Javascript Capstone",
     subtitle: "Frontend + Movie API",
     description:
       "A web app made with HTML/CSS/JS to render movie data from an API",
-    image: "project10",
+    image: "project5",
     link: "https://storres20.github.io/javascript_capstone/dist/",
+    github: "https://github.com/storres20/javascript_capstone"
   },
   {
     title: "Veride",
     subtitle: "React + API",
     description:
       "A vegetarian restaurant web app made with React js to render data from an API",
-    image: "project6",
+    image: "project4",
     link: "https://veride.netlify.app/",
+    github: "https://github.com/storres20/C4-30-front"
   },
   {
     title: "Alkemy Fullstack JS",
     subtitle: "React + Nodejs",
     description:
       "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
-    image: "project9",
+    image: "project3",
     link: "https://alkemy20-front.netlify.app/",
+    github: "https://github.com/storres20/alkemyFS"
   },
   {
     title: "Bs20",
     subtitle: "Frontend + API",
     description:
       "A E-commerce web app made with HTML, CSS, JS to render product's data from an API",
-    image: "project5",
+    image: "project2",
     link: "https://bs20-front.netlify.app/",
+    github: "https://github.com/storres20/bs20-front"
   },
   {
     title: "Real",
     subtitle: "React + API",
     description:
       "E-commerce web app made with React js + API to create and show products from an API",
-    image: "project8",
+    image: "project1",
     link: "https://real-front.netlify.app/",
+    github: "https://github.com/storres20/REAL-front"
   },
 ];
 

@@ -3,7 +3,7 @@
 export const projects = [
   {
     title: "Doctor's appointments",
-    subtitle: "Reactjs + Ruby on Rails",
+    subtitle: "React js + Ruby on Rails",
     description:
       "This web application let you register new doctors, save information and book appointments",
     image: "project9",
@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     title: "Random",
-    subtitle: "Reactjs + Typescript + API",
+    subtitle: "React js/Typescript + API",
     description:
       "RANDOM is a frontend web application that shows on screen Random user's information",
     image: "project8",
@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     title: "Veride",
-    subtitle: "React + API",
+    subtitle: "React js + API",
     description:
       "A vegetarian restaurant web app made with React js to render data from an API",
     image: "project4",
@@ -57,7 +57,7 @@ export const projects = [
   },
   {
     title: "Alkemy Fullstack JS",
-    subtitle: "React + Nodejs",
+    subtitle: "React js + Node js",
     description:
       "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
     image: "project3",
@@ -75,7 +75,7 @@ export const projects = [
   },
   {
     title: "Real",
-    subtitle: "React + API",
+    subtitle: "React js + API",
     description:
       "E-commerce web app made with React js + API to create and show products from an API",
     image: "project1",

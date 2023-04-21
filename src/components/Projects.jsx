@@ -50,6 +50,7 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
+              <div className="pt-2 text-green-500 font-bold">{project.subtitle}</div>
               <div className="flex justify-center mt-2">
                 <a
                   href={project.link}

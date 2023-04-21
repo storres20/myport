@@ -1,8 +1,11 @@
 // src/components/Projects.js
 
 import { CodeIcon } from "@heroicons/react/solid";
+import {TfiWorld} from "react-icons/tfi"
+import { FiGithub } from "react-icons/fi";
 import React from "react";
 import { projects } from "../data";
+import IconButton from "./IconButton";
 
 export default function Projects() {
   return (
@@ -52,15 +55,19 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                  Link
+                  className="inline-flex text-white border-0 focus:outline-none rounded text-lg">
+                  <IconButton text="Link" color="bg-green-500">
+                    <TfiWorld/>
+                  </IconButton>
                 </a>
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                  Github
+                  className="ml-4 inline-flex text-gray-400 border-0 focus:outline-none hover:text-white rounded text-lg">
+                  <IconButton text="Github" color="bg-gray-700">
+                    <FiGithub/>
+                  </IconButton>
                 </a>
               </div>
             </div>

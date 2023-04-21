@@ -1,6 +1,7 @@
 // src/components/About.js
 
 import React from 'react'
+import Typewriter from 'typewriter-effect'
 //import logo from './coding.png'
 import logo from './softdev1.jpeg'
 
@@ -18,12 +19,18 @@ export default function About() {
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Full Stack Web Developer
           </h2>
-          <p className="mb-2 leading-relaxed md:text-2xl">
-            Expert in REACT JS, Ruby On Rails, and more.
-          </p>
-          <p className="mb-8 leading-relaxed md:text-2xl">
-            Completely immersed in remote software development for the last few months, I have been working remotely and asynchronously with people in different time zones, and have built many projects.
-          </p>
+          <div className="mb-2 leading-relaxed md:text-2xl">
+            <Typewriter
+              options={{
+                strings: ['Expert in REACT JS, Ruby On Rails, and more.', 'Completely immersed in remote software development for the last few months', 'I have been working remotely and asynchronously with people in different time zones, and have built many projects'],
+                autoStart: true,
+                loop: true,
+                delay: 1,
+                deleteSpeed: 1,
+                pauseFor: 3000
+              }}
+            />
+          </div>
           <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">
             Any idea in mind? Click on "Work With Me" to send me a message. Let's talk!
           </p>

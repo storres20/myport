@@ -50,7 +50,11 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-              <div className="pt-2 text-green-500 font-bold">{project.subtitle}</div>
+              <div className="pt-2 text-green-500 font-bold flex items-center flex-row justify-center flex-wrap gap-2">
+                <span className="border border-green-500 rounded-lg p-2">{project.stack[0]}</span>
+                <span className="border border-green-500 rounded-lg p-2">{project.stack[1]}</span>
+                <span className="border border-green-500 rounded-lg p-2">{project.stack[2]}</span>
+              </div>
               <div className="flex justify-center mt-2">
                 <a
                   href={project.link}

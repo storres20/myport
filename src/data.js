@@ -4,6 +4,7 @@ export const projects = [
   {
     title: "Doctor's appointments",
     subtitle: "React js + Ruby on Rails",
+    stack: ['React js', 'Ruby on Rails', 'PostgreSQL'],
     description:
       "This web application let you register new doctors, save information and book appointments",
     image: "project9",
@@ -13,6 +14,7 @@ export const projects = [
   {
     title: "Random",
     subtitle: "React js/Typescript + API",
+    stack: ['React js', 'Typescript', 'API'],
     description:
       "RANDOM is a frontend web application that shows on screen Random user's information",
     image: "project8",
@@ -22,6 +24,7 @@ export const projects = [
   {
     title: "Pacientes",
     subtitle: "React js + Nodejs + MongoDB",
+    stack: ['React js', 'Node js', 'MongoDB'],
     description:
       "A web app made with React js that lets you register new patiens, save information and book appointments",
     image: "project7",
@@ -31,6 +34,7 @@ export const projects = [
   {
     title: "M3 React Capstone",
     subtitle: "React js/Redux/Testing + Movie API",
+    stack: ['React js', 'Redux', 'Testing'],
     description:
       "A web app made with React js/Redux/Testing to render movie data from an API",
     image: "project6",
@@ -40,6 +44,7 @@ export const projects = [
   {
     title: "Javascript Capstone",
     subtitle: "Frontend + Movie API",
+    stack: ['HTML', 'CSS', 'Javascript'],
     description:
       "A web app made with HTML/CSS/JS to render movie data from an API",
     image: "project5",
@@ -49,6 +54,7 @@ export const projects = [
   {
     title: "Veride",
     subtitle: "React js + API",
+    stack: ['React js', 'Bootstrap', 'API'],
     description:
       "A vegetarian restaurant web app made with React js to render data from an API",
     image: "project4",
@@ -58,6 +64,7 @@ export const projects = [
   {
     title: "Alkemy Fullstack JS",
     subtitle: "React js + Node js",
+    stack: ['React js', 'Node js', 'MongoDB'],
     description:
       "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
     image: "project3",
@@ -67,6 +74,7 @@ export const projects = [
   {
     title: "Bs20",
     subtitle: "Frontend + API",
+    stack: ['HTML', 'CSS', 'Javascript'],
     description:
       "A E-commerce web app made with HTML, CSS, JS to render product's data from an API",
     image: "project2",
@@ -76,6 +84,7 @@ export const projects = [
   {
     title: "Real",
     subtitle: "React js + API",
+    stack: ['React js', 'Bootstrap', 'API'],
     description:
       "E-commerce web app made with React js + API to create and show products from an API",
     image: "project1",

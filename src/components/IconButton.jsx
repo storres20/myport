@@ -1,13 +1,13 @@
 import React, {useState, useRef} from 'react'
 
-export default function IconButton({children, text, color, ...props}) {
+export default function IconButton({children, text, color, textcolor, ...props}) {
   const [hovered, setHovered] = useState(false)
   const ref = useRef(null)
   return (
     <button
     onMouseEnter={() => setHovered(true)}
     onMouseLeave={() => setHovered(false)}
-    className={`flex py-4 px-6 items-center rounded-lg text-white ${color || "bg-gray-600"}`} {...props}>
+    className={`flex py-4 px-6 items-center rounded-lg ${textcolor || "text-white"} ${color || "bg-gray-600"}`} {...props}>
       {children}
       <div
       style={{width: hovered ? ref.current.offsetWidth : 0}}

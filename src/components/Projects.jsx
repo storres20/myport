@@ -61,7 +61,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex text-white border-0 focus:outline-none rounded text-lg">
-                  <IconButton text="Link" color="bg-green-500">
+                  <IconButton text="Link" color="bg-green-500" textcolor="text-black">
                     <TfiWorld/>
                   </IconButton>
                 </a>

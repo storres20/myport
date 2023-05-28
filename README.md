@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://lonkan-portfolio.netlify.app/)
+- [Live Demo Link](https://lonkansoft.pro/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

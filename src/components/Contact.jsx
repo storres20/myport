@@ -33,7 +33,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <p className="text-indigo-400 leading-relaxed">
-                lkpitalo249@email.com
+                lkpitalo249@gmail.com
               </p>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 GITHUB

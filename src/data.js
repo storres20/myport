@@ -2,16 +2,6 @@
 
 export const projects = [
   {
-    title: "Amazona E-commerce",
-    subtitle: "Next js + MongoDB",
-    stack: ['Next js', 'Tailwind CSS', 'MongoDB'],
-    description:
-      "This web application is an E-commerce for clothing, other accesories and checkout",
-    image: "project10",
-    link: "https://next-tailwind-amazona-chi-coral.vercel.app/",
-    github: "https://github.com/storres20/next-tailwind-amazona"
-  },
-  {
     title: "Doctor's appointments",
     subtitle: "React js + Ruby on Rails",
     stack: ['React js', 'Ruby on Rails', 'PostgreSQL'],

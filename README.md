@@ -100,7 +100,7 @@ Install this project with:
 
 ```sh
   cd myport
-  npm install
+  pnpm install
 ```
 
 ### Usage
@@ -108,7 +108,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  npm start
+  pnpm start
 ```
 
 ### Run tests
@@ -128,7 +128,7 @@ Example command:
 You can deploy this project using:
 
 ```sh
-  npm run build
+  pnpm build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -22,7 +22,7 @@ export default function About() {
           <div className="mb-2 leading-relaxed md:text-2xl">
             <Typewriter
               options={{
-                strings: ['Expert in REACT JS, NODE JS', 'Completely immersed in remote software development for the last few months', 'I have been working remotely and asynchronously with people in different time zones, and have built many projects'],
+                strings: ['Expert in NEXT JS, NODE JS', 'Completely immersed in remote software development for the last few months', 'I have been working remotely and asynchronously with people in different time zones, and have built many projects'],
                 autoStart: true,
                 loop: true,
                 delay: 1,

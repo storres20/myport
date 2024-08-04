@@ -112,22 +112,26 @@ export const skills = [
   },
   {
     id: "5",
-    subtitle: "Node js",
+    subtitle: "Next js",
   },
   {
     id: "6",
-    subtitle: "Tailwind CSS",
+    subtitle: "Node js",
   },
   {
     id: "7",
-    subtitle: "MongoDB",
+    subtitle: "Tailwind CSS",
   },
   {
     id: "8",
-    subtitle: "Git",
+    subtitle: "MongoDB",
   },
   {
     id: "9",
+    subtitle: "Git",
+  },
+  {
+    id: "10",
     subtitle: "Github",
   },
 ];

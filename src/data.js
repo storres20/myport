@@ -12,16 +12,6 @@ export const projects = [
     github: "https://github.com/storres20/Doctors-appointment-frontend"
   },
   {
-    title: "Random",
-    subtitle: "React js/Typescript + API",
-    stack: ['React js', 'Typescript', 'API'],
-    description:
-      "RANDOM is a frontend web application that shows on screen Random user's information",
-    image: "project8",
-    link: "https://randomuser2023.netlify.app/",
-    github: "https://github.com/storres20/random"
-  },
-  {
     title: "Pacientes",
     subtitle: "React js + Nodejs + MongoDB",
     stack: ['React js', 'Node js', 'MongoDB'],
@@ -60,36 +50,6 @@ export const projects = [
     image: "project4",
     link: "https://veride.netlify.app/",
     github: "https://github.com/storres20/C4-30-front"
-  },
-  {
-    title: "Alkemy Fullstack JS",
-    subtitle: "React js + Node js",
-    stack: ['React js', 'Node js', 'MongoDB'],
-    description:
-      "A web app to ADD or EDIT financial data. Username: mario, Password: mario123",
-    image: "project3",
-    link: "https://alkemy20-front.netlify.app/",
-    github: "https://github.com/storres20/alkemyFS"
-  },
-  {
-    title: "Bs20",
-    subtitle: "Frontend + API",
-    stack: ['HTML', 'CSS', 'Javascript'],
-    description:
-      "A E-commerce web app made with HTML, CSS, JS to render product's data from an API",
-    image: "project2",
-    link: "https://bs20-front.netlify.app/",
-    github: "https://github.com/storres20/bs20-front"
-  },
-  {
-    title: "Real",
-    subtitle: "React js + API",
-    stack: ['React js', 'Bootstrap', 'API'],
-    description:
-      "E-commerce web app made with React js + API to create and show products from an API",
-    image: "project1",
-    link: "https://real-front.netlify.app/",
-    github: "https://github.com/storres20/REAL-front"
   },
 ];
 

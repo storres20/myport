@@ -32,13 +32,13 @@ export default function About() {
             />
           </div>
           <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">
-            Any idea in mind? Click on "Work With Me" to send me a message. Let's talk!
+            Any idea in mind? Click on "Contact Me" to send me a message. Let's talk!
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-black bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              Contact Me
             </a>
             <a
               href="#projects"

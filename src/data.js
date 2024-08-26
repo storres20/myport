@@ -9,7 +9,8 @@ export const projects = [
       "This web application let you register new doctors, save information and book appointments",
     image: "project9",
     link: "https://doctorsfinal.netlify.app/",
-    github: "https://github.com/storres20/Doctors-appointment-frontend"
+    github: "https://github.com/storres20/Doctors-appointment-frontend",
+    youtube: ""
   },
   {
     title: "Pacientes",
@@ -19,7 +20,8 @@ export const projects = [
       "A web app made with React js that lets you register new patiens, save information and book appointments",
     image: "project7",
     link: "https://pacientes20.netlify.app/",
-    github: "https://github.com/storres20/pacientes"
+    github: "https://github.com/storres20/pacientes",
+    youtube: ""
   },
   {
     title: "M3 React Capstone",
@@ -29,7 +31,8 @@ export const projects = [
       "A web app made with React js/Redux/Testing to render movie data from an API",
     image: "project6",
     link: "https://m3-react-capstone.netlify.app/",
-    github: "https://github.com/storres20/M3-react-capstone"
+    github: "https://github.com/storres20/M3-react-capstone",
+    youtube: ""
   },
   {
     title: "Javascript Capstone",
@@ -39,7 +42,8 @@ export const projects = [
       "A web app made with HTML/CSS/JS to render movie data from an API",
     image: "project5",
     link: "https://storres20.github.io/javascript_capstone/dist/",
-    github: "https://github.com/storres20/javascript_capstone"
+    github: "https://github.com/storres20/javascript_capstone",
+    youtube: ""
   },
   {
     title: "Veride",
@@ -49,7 +53,8 @@ export const projects = [
       "A vegetarian restaurant web app made with React js to render data from an API",
     image: "project4",
     link: "https://veride.netlify.app/",
-    github: "https://github.com/storres20/C4-30-front"
+    github: "https://github.com/storres20/C4-30-front",
+    youtube: ""
   },
 ];
 

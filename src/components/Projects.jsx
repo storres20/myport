@@ -3,6 +3,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import {TfiWorld} from "react-icons/tfi"
 import { FiGithub } from "react-icons/fi";
+import { IoLogoYoutube } from "react-icons/io";
 import React from "react";
 import { projects } from "../data";
 import IconButton from "./IconButton";
@@ -74,6 +75,19 @@ export default function Projects() {
                     <FiGithub/>
                   </IconButton>
                 </a>
+                {project.youtube && (
+                  <a
+                    href={project.youtube}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="ml-4 inline-flex text-black border-0 focus:outline-none hover:text-black rounded text-lg"
+                  >
+                    <IconButton text="Youtube" color="bg-red-500">
+                      <IoLogoYoutube />
+                    </IconButton>
+                  </a>
+                )}
+
               </div>
             </div>
           ))}

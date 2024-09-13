@@ -3,14 +3,14 @@
 export const projects = [
   {
     title: "Doctor's appointments",
-    subtitle: "React js + Ruby on Rails",
-    stack: ['React js', 'Ruby on Rails', 'PostgreSQL'],
+    subtitle: "React js + Node js",
+    stack: ['React js', 'Node js', 'Mongo DB'],
     description:
       "This web application let you register new doctors, save information and book appointments",
     image: "project9",
     link: "https://doctorsfinal.netlify.app/",
     github: "https://github.com/storres20/Doctors-appointment-frontend",
-    youtube: ""
+    youtube: "https://youtu.be/PgqA8f50ido"
   },
   {
     title: "Pacientes",

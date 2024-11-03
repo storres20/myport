@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React js + Nodejs + MongoDB",
     stack: ['React js', 'Node js', 'MongoDB'],
     description:
-      "A web app made with React js that lets you register new patiens, save information and book appointments",
+      "A web app made with React js that lets you register new patients, save information and book appointments",
     image: "project7",
     link: "https://pacientes20.netlify.app/",
     github: "https://github.com/storres20/pacientes",

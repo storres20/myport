@@ -2,6 +2,17 @@
 
 export const projects = [
   {
+    title: "Real Time Chat",
+    subtitle: "Next js + Node js",
+    stack: ['Next js', 'Node js', 'Mongo DB'],
+    description:
+        "This is a web application let you real-time communication, based on WebSockets, between clients",
+    image: "project10",
+    link: "https://chat-frontend-coral.vercel.app/",
+    github: "https://github.com/storres20/chat-frontend",
+    youtube: "https://youtu.be/eW3yunm2-OA"
+  },
+  {
     title: "Doctor's appointments",
     subtitle: "React js + Node js",
     stack: ['React js', 'Node js', 'Mongo DB'],

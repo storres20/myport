@@ -22,51 +22,7 @@ export const projects = [
     link: "https://doctorsfinal.netlify.app/",
     github: "https://github.com/storres20/Doctors-appointment-frontend",
     youtube: "https://youtu.be/PgqA8f50ido"
-  },
-  {
-    title: "Pacientes",
-    subtitle: "React js + Nodejs + MongoDB",
-    stack: ['React js', 'Node js', 'MongoDB'],
-    description:
-      "A web app made with React js that lets you register new patients, save information and book appointments",
-    image: "project7",
-    link: "https://pacientes20.netlify.app/",
-    github: "https://github.com/storres20/pacientes",
-    youtube: ""
-  },
-  {
-    title: "M3 React Capstone",
-    subtitle: "React js/Redux/Testing + Movie API",
-    stack: ['React js', 'Redux', 'Testing'],
-    description:
-      "A web app made with React js/Redux/Testing to render movie data from an API",
-    image: "project6",
-    link: "https://m3-react-capstone.netlify.app/",
-    github: "https://github.com/storres20/M3-react-capstone",
-    youtube: ""
-  },
-  {
-    title: "Javascript Capstone",
-    subtitle: "Frontend + Movie API",
-    stack: ['HTML', 'CSS', 'Javascript'],
-    description:
-      "A web app made with HTML/CSS/JS to render movie data from an API",
-    image: "project5",
-    link: "https://storres20.github.io/javascript_capstone/dist/",
-    github: "https://github.com/storres20/javascript_capstone",
-    youtube: ""
-  },
-  {
-    title: "Veride",
-    subtitle: "React js + API",
-    stack: ['React js', 'Bootstrap', 'API'],
-    description:
-      "A vegetarian restaurant web app made with React js to render data from an API",
-    image: "project4",
-    link: "https://veride.netlify.app/",
-    github: "https://github.com/storres20/C4-30-front",
-    youtube: ""
-  },
+  }
 ];
 
 export const skills = [

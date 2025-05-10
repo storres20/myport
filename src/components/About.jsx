@@ -22,7 +22,7 @@ export default function About() {
           <div className="mb-2 leading-relaxed md:text-2xl">
             <Typewriter
               options={{
-                strings: ['Expert in NEXT JS, NODE JS', 'Software Developer', 'Electronic Engineer','Mechatronics Master’s Student'],
+                strings: ['Software Developer', 'Electronic Engineer', 'Scientific Researcher', 'Mechatronics Master’s Student'],
                 autoStart: true,
                 loop: true,
                 delay: 50,
@@ -34,21 +34,30 @@ export default function About() {
           
           <div className="mb-6">
             <p className="text-lg text-white font-semibold mb-2">
-              Software Developer | NEXT.js | Electronic Engineer | Mechatronics Master’s Student
+              Software Developer | Scientific Researcher | Mechatronics Master’s Student
             </p>
             <p className="text-justify text-lg leading-relaxed text-gray-300">
-              I’m a <span className="font-semibold text-white">Software Developer</span> with expertise in 
-              <span className="text-green-400 font-medium"> NEXT.js</span>, 
-              <span className="text-green-400 font-medium"> Node.js</span>, and full-stack web technologies. 
-              With a background as an <span className="font-semibold text-white">Electronic Engineer</span> and 
-              over <span className="font-semibold">7 years</span> of professional experience in hospital environments — 
-              especially in <span className="italic">health technology management</span> — 
-              I’ve recently immersed myself in the development of web and IoT systems that have real-world impact. 
-              I’m currently pursuing a Master’s in Mechatronics Engineering at PUCP, expanding into 
-              <span className="italic"> Robotics, Artificial Intelligence, and Computer Vision</span> with a strong interest in 
-              applications for <span className="italic">healthcare</span> and <span className="italic">agriculture</span>.
+              A <span className="font-semibold text-white">multi-skilled Electronic Engineer</span> and 
+              <span className="font-semibold text-white"> Software Developer</span> with over 
+              <span className="font-semibold"> 7 years</span> of experience in 
+              <span className="italic"> health technology management</span> in hospitals. In recent years, 
+              I’ve focused on building 
+              <span className="text-green-400 font-medium"> IoT systems</span> and 
+              <span className="text-green-400 font-medium"> web applications</span> that address real-world challenges in 
+              <span className="italic"> healthcare</span>, 
+              <span className="italic"> agriculture</span>, and 
+              <span className="italic"> automation</span>.
+              <br /><br />
+              Currently pursuing a Master’s degree in 
+              <span className="font-semibold text-white"> Mechatronics Engineering</span> at PUCP, where I’m expanding my expertise in 
+              <span className="italic"> Robotics</span>, 
+              <span className="italic"> Artificial Intelligence (AI)</span>, and 
+              <span className="italic"> Computer Vision</span> for applied research. I design, prototype, and validate 
+              <span className="text-green-400 font-medium"> embedded systems</span> that connect hardware and software 
+              for impactful field applications.
             </p>
           </div>
+
           
           <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">
             Any idea in mind? Click on "Contact Me" to send me a message. Let's talk!

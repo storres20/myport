@@ -14,7 +14,7 @@ const Privacy = () => (
         By using the app, you agree to this policy. This policy may be updated, and any changes will be reflected on this page.
       </p>
       <p>
-        If you have any questions, please contact us at: <strong>contacto@lonkansoft.pro</strong>
+        If you have any questions, please contact us at: <strong>italo@lonkansoft.pro</strong>
       </p>
     </div>
   </div>

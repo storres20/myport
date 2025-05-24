@@ -1,11 +1,24 @@
-// src/components/About.js
-
-import React from 'react'
-import Typewriter from 'typewriter-effect'
-//import logo from './coding.png'
-import logo from './softdev1.jpeg'
+import React from "react";
+import Typewriter from "typewriter-effect";
+import logo from "./softdev1.jpeg";
+import { useLocation, useHistory } from "react-router-dom";
 
 export default function About() {
+  const location = useLocation();
+  const history = useHistory();
+
+  const scrollToSection = (id) => {
+    if (location.pathname !== "/") {
+      history.push({
+        pathname: "/",
+        state: { scrollToId: id },
+      });
+    } else {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -22,16 +35,21 @@ export default function About() {
           <div className="mb-2 leading-relaxed md:text-2xl">
             <Typewriter
               options={{
-                strings: ['Software Developer', 'Electronic Engineer', 'Scientific Researcher', 'Mechatronics Master’s Student'],
+                strings: [
+                  "Software Developer",
+                  "Electronic Engineer",
+                  "Scientific Researcher",
+                  "Mechatronics Master’s Student",
+                ],
                 autoStart: true,
                 loop: true,
                 delay: 50,
                 deleteSpeed: 30,
-                pauseFor: 3000
+                pauseFor: 3000,
               }}
             />
           </div>
-          
+
           <div className="mb-6">
             <p className="text-lg text-white font-semibold mb-2">
               Software Developer | Scientific Researcher | Mechatronics Master’s Student
@@ -58,21 +76,22 @@ export default function About() {
             </p>
           </div>
 
-          
           <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">
             Any idea in mind? Click on "Contact Me" to send me a message. Let's talk!
           </p>
           <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-black bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="inline-flex text-black bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
               Contact Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+            </button>
+            <button
+              onClick={() => scrollToSection("projects")}
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
               See My Past Work
-            </a>
+            </button>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

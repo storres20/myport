@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const Privacy = () => (
-  <div className="min-h-screen bg-gray-900 text-white p-6">
-    <div className="max-w-4xl mx-auto">
+  <div className="bg-gray-900 text-white flex items-center justify-center p-6">
+    <div className="max-w-3xl text-center">
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-4">
         This application (UA-CAR) respects your privacy. We do not collect, store, or share any personal information.
@@ -13,7 +13,7 @@ const Privacy = () => (
       <p className="mb-4">
         By using the app, you agree to this policy. This policy may be updated, and any changes will be reflected on this page.
       </p>
-      <p className="mt-6">
+      <p>
         If you have any questions, please contact us at: <strong>contacto@lonkansoft.pro</strong>
       </p>
     </div>

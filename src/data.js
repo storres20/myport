@@ -2,26 +2,15 @@
 
 export const projects = [
   {
-    title: "Real Time Chat",
+    title: "MHUTEMP",
     subtitle: "Next js + Node js",
     stack: ['Next js', 'Node js', 'Mongo DB'],
     description:
-        "This is a web application let you real-time communication, based on WebSockets, between clients",
-    image: "project10",
-    link: "https://chat-frontend-coral.vercel.app/",
-    github: "https://github.com/storres20/chat-frontend",
-    youtube: "https://youtu.be/eW3yunm2-OA"
-  },
-  {
-    title: "Doctor's appointments",
-    subtitle: "React js + Node js",
-    stack: ['React js', 'Node js', 'Mongo DB'],
-    description:
-      "This web application let you register new doctors, save information and book appointments",
-    image: "project9",
-    link: "https://doctorsfinal.netlify.app/",
-    github: "https://github.com/storres20/Doctors-appointment-frontend",
-    youtube: "https://youtu.be/PgqA8f50ido"
+      "MHUTEMP is an open-source IoT-based solution designed for real-time monitoring of temperature and humidity levels in critical healthcare equipment such as blood bank refrigerators and vaccine storage units.",
+    image: "mhutemp",
+    link: "https://bio-data-nextjs.netlify.app/",
+    github: "https://github.com/storres20/bio-data-nextjs",
+    youtube: ""
   }
 ];
 

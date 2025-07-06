@@ -52,28 +52,36 @@ export default function About() {
 
           <div className="mb-6">
             <p className="text-lg text-white font-semibold mb-2">
-              Software Developer | Scientific Researcher | Mechatronics Master’s Student
+              Software Developer | Computer Science, AI, Machine Learning, Python
             </p>
             <p className="text-justify text-lg leading-relaxed text-gray-300">
-              A <span className="font-semibold text-white">multi-skilled Electronic Engineer</span> and 
-              <span className="font-semibold text-white"> Software Developer</span> with over 
-              <span className="font-semibold"> 7 years</span> of experience in 
-              <span className="italic"> health technology management</span> in hospitals. In recent years, 
-              I’ve focused on building 
-              <span className="text-green-400 font-medium"> IoT systems</span> and 
-              <span className="text-green-400 font-medium"> web applications</span> that address real-world challenges in 
+              A <span className="font-semibold text-white">versatile and impact-driven Software Developer </span> 
+              with a solid foundation in <span className="font-semibold text-white">Electronic Engineering </span> 
+              and over <span className="font-semibold">7 years</span> of experience managing 
+              <span className="italic"> health technologies</span> in hospitals. My work bridges 
+              <span className="italic"> real-world problem-solving</span> with 
+              <span className="text-green-400 font-medium"> software innovation</span>, focusing on 
+              <span className="text-green-400 font-medium"> IoT systems</span>, 
+              <span className="text-green-400 font-medium"> AI applications</span>, and 
+              <span className="text-green-400 font-medium"> web platforms</span> for 
               <span className="italic"> healthcare</span>, 
               <span className="italic"> agriculture</span>, and 
               <span className="italic"> automation</span>.
               <br /><br />
-              Currently pursuing a Master’s degree in 
-              <span className="font-semibold text-white"> Mechatronics Engineering</span> at PUCP, where I’m expanding my expertise in 
-              <span className="italic"> Robotics</span>, 
-              <span className="italic"> Artificial Intelligence (AI)</span>, and 
-              <span className="italic"> Computer Vision</span> for applied research. I design, prototype, and validate 
-              <span className="text-green-400 font-medium"> embedded systems</span> that connect hardware and software 
-              for impactful field applications.
+              Currently advancing my skills through a 
+              <span className="font-semibold text-white"> Master’s in Mechatronics Engineering</span> at PUCP, 
+              specializing in 
+              <span className="italic"> Artificial Intelligence</span>, 
+              <span className="italic"> Computer Vision</span>, and 
+              <span className="italic"> Robotics</span>. I design and validate 
+              <span className="text-green-400 font-medium"> embedded systems</span> that integrate 
+              <span className="italic"> hardware and cloud-based software</span>, and I'm now expanding into 
+              <span className="text-green-400 font-medium"> formal Computer Science</span> with a strong focus on 
+              <span className="italic"> backend development</span>, 
+              <span className="italic"> Python</span>, and 
+              <span className="italic"> machine learning</span>.
             </p>
+
           </div>
 
           <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">

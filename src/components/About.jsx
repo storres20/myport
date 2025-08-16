@@ -29,9 +29,9 @@ export default function About() {
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             I'm ITALO LON KAN PEREZ
           </h2>
-          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          {/* <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Full Stack Web Developer
-          </h2>
+          </h2> */}
           <div className="mb-2 leading-relaxed md:text-2xl">
             <Typewriter
               options={{
@@ -39,7 +39,6 @@ export default function About() {
                   "Software Developer",
                   "Electronic Engineer",
                   "Scientific Researcher",
-                  "Mechatronics Master’s Student",
                 ],
                 autoStart: true,
                 loop: true,
@@ -52,36 +51,12 @@ export default function About() {
 
           <div className="mb-6">
             <p className="text-lg text-white font-semibold mb-2">
-              Software Developer | Computer Science, AI, Machine Learning, Python
+              Software Developer | Node.js, Next.js, MongoDB
             </p>
             <p className="text-justify text-lg leading-relaxed text-gray-300">
-              A <span className="font-semibold text-white">versatile and impact-driven Software Developer </span> 
-              with a solid foundation in <span className="font-semibold text-white">Electronic Engineering </span> 
-              and over <span className="font-semibold">7 years</span> of experience managing 
-              <span className="italic"> health technologies</span> in hospitals. My work bridges 
-              <span className="italic"> real-world problem-solving</span> with 
-              <span className="text-green-400 font-medium"> software innovation</span>, focusing on 
-              <span className="text-green-400 font-medium"> IoT systems</span>, 
-              <span className="text-green-400 font-medium"> AI applications</span>, and 
-              <span className="text-green-400 font-medium"> web platforms</span> for 
-              <span className="italic"> healthcare</span>, 
-              <span className="italic"> agriculture</span>, and 
-              <span className="italic"> automation</span>.
-              <br /><br />
-              Currently advancing my skills through a 
-              <span className="font-semibold text-white"> Master’s in Mechatronics Engineering</span> at PUCP, 
-              specializing in 
-              <span className="italic"> Artificial Intelligence</span>, 
-              <span className="italic"> Computer Vision</span>, and 
-              <span className="italic"> Robotics</span>. I design and validate 
-              <span className="text-green-400 font-medium"> embedded systems</span> that integrate 
-              <span className="italic"> hardware and cloud-based software</span>, and I'm now expanding into 
-              <span className="text-green-400 font-medium"> formal Computer Science</span> with a strong focus on 
-              <span className="italic"> backend development</span>, 
-              <span className="italic"> Python</span>, and 
-              <span className="italic"> machine learning</span>.
+              <span className="font-semibold text-white">Versatile Software Developer</span> with strong expertise in <span className="text-green-400 font-medium"> fullstack development</span>, building reliable <span className="text-green-400 font-medium"> web applications</span> and <span className="text-green-400 font-medium"> real-time IoT systems</span>.
+              My background in <span className="font-semibold text-white"> Electronic Engineering</span> gives me a unique ability to connect <span className="italic"> hardware</span> with <span className="text-green-400 font-medium"> scalable cloud-based solutions</span>.
             </p>
-
           </div>
 
           <p className="mb-8 leading-relaxed md:text-2xl font-bold text-green-500">

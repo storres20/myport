@@ -36,7 +36,7 @@ export default function About() {
             <Typewriter
               options={{
                 strings: [
-                  "Software Developer",
+                  "Web Developer",
                   "Electronic Engineer",
                   "Scientific Researcher",
                 ],
@@ -51,10 +51,10 @@ export default function About() {
 
           <div className="mb-6">
             <p className="text-lg text-white font-semibold mb-2">
-              Software Developer | Node.js, Next.js, MongoDB
+              Web Developer | Node.js, Next.js, MongoDB
             </p>
             <p className="text-justify text-lg leading-relaxed text-gray-300">
-              <span className="font-semibold text-white">Versatile Software Developer</span> with strong expertise in <span className="text-green-400 font-medium"> fullstack development</span>, building reliable <span className="text-green-400 font-medium"> web applications</span> and <span className="text-green-400 font-medium"> real-time IoT systems</span>.
+              <span className="font-semibold text-white">Versatile Web Developer</span> with strong expertise in <span className="text-green-400 font-medium"> fullstack development</span>, building reliable <span className="text-green-400 font-medium"> web applications</span> and <span className="text-green-400 font-medium"> real-time IoT systems</span>.
               My background in <span className="font-semibold text-white"> Electronic Engineering</span> gives me a unique ability to connect <span className="italic"> hardware</span> with <span className="text-green-400 font-medium"> scalable cloud-based solutions</span>.
             </p>
           </div>
